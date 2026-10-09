@@ -1,0 +1,12 @@
+{
+  "name": "college-utility-management",
+  "version": "1.0.0",
+  "description": "Unified College Utility Management & Campus Operations ERP",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "seed:backend": "npm --prefix backend run seed"
+  }
+}

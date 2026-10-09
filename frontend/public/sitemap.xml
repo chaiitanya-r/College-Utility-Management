@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — College Utility Management Portal
+
+  DOMAIN: Automatically filled from VITE_APP_BASE_URL at build time via Vite env substitution.
+  Set VITE_APP_BASE_URL in your .env file when you have a domain:
+    VITE_APP_BASE_URL=https://your-domain.edu
+
+  ORG SLUGS: Routes are dynamic per organization (/org/:orgId/).
+  Add one <url> block per organization slug for each public page.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Root / Organization Selector -->
+  <url>
+    <loc>%VITE_APP_BASE_URL%/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Default Campus Public Pages -->
+  <url>
+    <loc>%VITE_APP_BASE_URL%/facilities</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%VITE_APP_BASE_URL%/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>%VITE_APP_BASE_URL%/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

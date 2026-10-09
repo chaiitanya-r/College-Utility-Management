@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200">
+  <!-- Background -->
+  <rect width="700" height="200" fill="white" />
+
+  <!-- Text -->
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="100" font-weight="bold">
+    <tspan fill="black">BookMy</tspan>
+    <tspan fill="orange" x="430">Hall</tspan>
+  </text>
+
+  
+</svg>

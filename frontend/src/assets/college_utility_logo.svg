@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cum_grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123458" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cum_grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <filter id="cum_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1d4ed8" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Icon Emblem -->
+  <g transform="translate(15, 10)">
+    <!-- Base Shield / Hexagon -->
+    <rect x="0" y="5" width="90" height="90" rx="22" fill="url(#cum_grad1)" filter="url(#cum_glow)" />
+    
+    <!-- Stylized Academic Arch & Campus Utility Grid -->
+    <!-- Pillars -->
+    <path d="M22 68 L22 46 Q22 42 26 42 L32 42 Q36 42 36 46 L36 68 Z" fill="#ffffff" opacity="0.9" />
+    <path d="M40 68 L40 38 Q40 34 45 34 L45 34 Q50 34 50 38 L50 68 Z" fill="#ffffff" />
+    <path d="M54 68 L54 46 Q54 42 58 42 L64 42 Q68 42 68 46 L68 68 Z" fill="#ffffff" opacity="0.9" />
+    
+    <!-- Arch / Pediment Header -->
+    <path d="M18 40 L45 22 L72 40 Z" fill="#ffffff" />
+    <!-- Ground Platform -->
+    <rect x="18" y="70" width="54" height="6" rx="3" fill="#ffffff" opacity="0.95" />
+    
+    <!-- Spark / Utility Accent Dot (Golden Amber) -->
+    <circle cx="45" cy="22" r="4.5" fill="url(#cum_grad2)" />
+  </g>
+
+  <!-- Typography -->
+  <!-- "College Utility" -->
+  <text x="124" y="54" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Outfit', 'Inter', sans-serif" font-weight="900" font-size="34" fill="#123458" letter-spacing="-0.5">
+    College <tspan fill="#1d4ed8">Utility</tspan>
+  </text>
+
+  <!-- "MANAGEMENT" Subtitle -->
+  <text x="126" y="82" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="700" font-size="14.5" fill="#64748b" letter-spacing="4.5">
+    MANAGEMENT ERP
+  </text>
+
+  <!-- Subtle accent line -->
+  <rect x="126" y="93" width="70" height="3" rx="1.5" fill="url(#cum_grad1)" opacity="0.8" />
+</svg>
